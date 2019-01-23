@@ -1,10 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 
-
-int running = 0;
-
-
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -18,8 +14,6 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(ui->comboBoxH, SIGNAL(currentTextChanged(QString)), this, SLOT(sliderslot()));
     connect(ui->comboBoxM, SIGNAL(currentTextChanged(QString)), this, SLOT(sliderslot()));
-
-
 }
 
 MainWindow::~MainWindow()
@@ -57,7 +51,7 @@ void MainWindow::on_pushButton_clicked()
     else
     {
         myTimer->stop();
-        MainWindow::ui->pushButton->setText("Los");
+        MainWindow::ui->pushButton->setText("Go");
     }
 
 }

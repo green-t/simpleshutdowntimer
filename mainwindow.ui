@@ -24,7 +24,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Los</string>
+     <string>Go</string>
     </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
@@ -85,7 +85,7 @@
      <item>
       <widget class="QLabel" name="label">
        <property name="text">
-        <string>Stunden</string>
+        <string>Hours</string>
        </property>
       </widget>
      </item>
@@ -165,7 +165,7 @@
      <item>
       <widget class="QLabel" name="label_2">
        <property name="text">
-        <string>Minuten</string>
+        <string>Minutes</string>
        </property>
       </widget>
      </item>
@@ -238,12 +238,12 @@
     </property>
     <item>
      <property name="text">
-      <string>Herunterfahren</string>
+      <string>Shutdown</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>Neustarten</string>
+      <string>Restart</string>
      </property>
     </item>
     <item>
